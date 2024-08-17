@@ -4,8 +4,11 @@ syntax on
 " Always syntax format the whole file
 syntax sync fromstart
 
-" Turn on code folding based on syntax
-set foldmethod=syntax
+" Turn on code folding based on syntax, better for C/C++
+" set foldmethod=syntax
+
+" Turn on code folding based on indent, better for Python
+set foldmethod=indent
 
 " set line numbers
 set number
