@@ -33,8 +33,8 @@ set history=10000
 set visualbell
 
 " Tab settings
-set sts=2
-set shiftwidth=2
+set sts=4
+set shiftwidth=4
 set expandtab
 set smartindent
 
