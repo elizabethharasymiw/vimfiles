@@ -52,3 +52,7 @@ set spell
 set spelllang=en_us
 highlight clear SpellBad
 highlight SpellBad guifg=red
+
+" Useful to stop auto conversion and unwanted file formatting changes on save
+" Treat text like raw text data
+set binary
